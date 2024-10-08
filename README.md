@@ -5,17 +5,17 @@ Project ini merupakan aplikasi berbasis web yang dibangun menggunakan Laravel 8.
 
 ## Desain Database
 Data lecturer terdiri dari:
-    1. ID
-    2. Name
-    3. Registrasi Number
-    4. Phone
-    5. Birth
+1. ID
+2. Name
+3. Registrasi Number
+4. Phone
+5. Birth
 
 Data course terdiri dari:
-    1. ID
-    2. Name
-    3. Credits
-    4. Class
+1. ID
+2. Name
+3. Credits
+4. Class
 
 Relasi untuk database tersebut yaitu **one to many**. Dimana lecturer dapat mengajar di banyak kelas. Desain database dapat dilihat di bawah ini:
 
