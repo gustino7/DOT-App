@@ -8,6 +8,12 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+    /**
+     * Login dengan email dan password
+     * 
+     * @param \Illuminate\Http\Request $request
+     * @return mixed|\Illuminate\Http\JsonResponse
+     */
     function login(Request $request)
     {
         $user = User::where('email', $request->email)->first();
@@ -29,6 +35,13 @@ class UserController extends Controller
         ], 201);
     }
 
+    /**
+     * Logout dari akun menggunakan token, dan menghapus (revoke)
+     * token dari database.
+     * 
+     * @param \Illuminate\Http\Request $request
+     * @return mixed|\Illuminate\Http\JsonResponse
+     */
     public function logout(Request $request)
     {
         $request->user()->currentAccessToken()->delete();
