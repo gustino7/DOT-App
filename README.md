@@ -23,12 +23,12 @@ Relasi untuk database tersebut yaitu **one to many**. Dimana lecturer dapat meng
 
 ## Dependency
 Dependency yang digunakan yaitu :
-    - **Laravel 8**
-    - **PHP 7.3.9**
-    - **My SQL 8.0.30**
-    - **Node.js 20.16.0**
-    - **Laravel Sanctum**
-    - **npm**
+- **Laravel 8**
+- **PHP 7.3.9**
+- **My SQL 8.0.30**
+- **Node.js 20.16.0**
+- **Laravel Sanctum**
+- **npm**
 
 ## Panduan API
 Dokumentasi API dapat dilihat di link https://documenter.getpostman.com/view/25915347/2sAXxP9svn
