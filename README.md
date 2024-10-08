@@ -37,7 +37,7 @@ Dokumentasi API dapat dilihat di link https://documenter.getpostman.com/view/259
 Cara instalasi adalah sebagai berikut:
 1. Clone repository
 ```bash
-git clone
+git clone https://github.com/gustino7/DOT-App.git
 cd ./DOT-App
 ```
 2. Install Dependency
